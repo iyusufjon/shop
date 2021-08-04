@@ -18,15 +18,15 @@ $customer_id = isset($_SESSION['customer_id']) ? $_SESSION['customer_id'] : NULL
 			<div class="col-md-9">
 				<h3>Bugungi buyurtmalar</h3>
 				<?php 
-					echo "<pre>";
-					print_r($_SERVER);
-					echo "<pre>";
+					// echo "<pre>";
+					// print_r($_SERVER);
+					// echo "<pre>";
 					
-					$str = strrev($_SERVER['REQUEST_URI']);
+					// $str = strrev($_SERVER['REQUEST_URI']);
 
-					$str = strstr(strrev(strstr($str, "/", true)), '.', true);
+					// $str = strstr(strrev(strstr($str, "/", true)), '.', true);
 
-					echo $str;
+					// echo $str;
 				 ?>
 			</div>
 			<div class="col-md-3 pull-right">
